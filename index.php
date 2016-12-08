@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
     </head>
-    <body>
+    <body class="page-1">
         <!---------------------------------------------------------------->
         <!-----------------------------Loader----------------------------->
         <!---------------------------------------------------------------->
@@ -64,9 +64,7 @@
                 </div>
                 <!---------------------------------------------------------------->
                 <div>
-                    <p id="tweet">
-                        
-                        dbhebdhedz
+                    <p>
                     </p>
                 </div>
             </div>
