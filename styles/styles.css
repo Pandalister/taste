@@ -2,7 +2,7 @@
 /*----------------------------Body-----------------------------*/
 /*-------------------------------------------------------------*/
 body{
-    background-image: url(../images/back1.jpg);
+    background-image: url(../images/back4.jpg);
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -41,8 +41,7 @@ div.loader {
     position: fixed;
     width: 70%;
     z-index: 999;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 100%;
 }
 
 .header .main-nav ul li {
@@ -189,12 +188,10 @@ p#tweet {
 }
 
 #container{
-    margin-left: 15%;
-    margin-right: 15%;
-    background-color: rgba(255, 255, 255, 0.68);
+    background-color: #fff;
     height: 100%;
     padding-bottom: 10%;
-    width: 70%;
+    width: 100%;
 }
 
 #errorAf1{
@@ -504,4 +501,16 @@ i.fa.fa-home {
   * {
     font-size: 0.9em;
   }
+}
+
+.carousel-inner {
+    height: 125%;
+}
+
+.carousel-caption {
+    top: 20%;
+    right: 20%;
+    left: 20%;
+    padding-bottom: 0px !important;
+    top: 20%;
 }

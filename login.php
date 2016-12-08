@@ -1,7 +1,7 @@
 <?php
-$ident= $_POST['username'];
-$mpdid= $_POST['mdp'];
-$etape=$_POST['etape'];
+$ident= $_REQUEST['username'];
+$mpdid= $_REQUEST['mdp'];
+$etape=$_REQUEST['etape'];
 $user=root;
 $pass=root;
 $dbh = new PDO('mysql:host=localhost;dbname=taste', $user, $pass);
@@ -10,8 +10,8 @@ $reponse = $dbh->query($sql);
 $donnees = $reponse->fetch();
 $idEmp= $donnees['idEmp'];
 $mdpEmp= $donnees['mdpEmp'];
-$etape=$_POST['etape'];
-$etape =(count($_POST)!=0)? 'valider connexion' : 'demander connexion';
+$etape=$_REQUEST['etape'];
+$etape =(count($_REQUEST)!=0)? 'valider connexion' : 'demander connexion';
 if ($etape=='valider connexion'){
     if($idEmp==$ident && $mdpEmp==$mpdid && $idEmp!="" && $mdpEmp!=""){
         header("Location: /taste/backoffice.php");

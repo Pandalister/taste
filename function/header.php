@@ -1,3 +1,6 @@
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" type="text/css" href="/taste/css/bootstrap.min.css">
+
 <div class="header">
     <nav class="main-nav">
         <ul>
