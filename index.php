@@ -21,6 +21,16 @@
             <?php include('./function/slider.php'); ?>
             <!---------------------------------------------------------------->
             <div class="container">
+                <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4"></div>
+                </div>
+            </div>
+            <!---------------------------------------------------------------->
+            <!---------------------------------------------------------------->
+            <!---------------------------------------------------------------->
+            <div class="container">
                 <div id="firstAC" class="row">
                     <div id="firstCTA" class="col-sm-1 col-lg-12">
                         <h1 style="font-size : 3.5em">
@@ -30,17 +40,24 @@
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                             </p>
+                        <button id="buttonCTA" type="button">Contactez-nous !</button>
                     </div>
                 </div>
             </div>
+            <!---------------------------------------------------------------->
+            <!---------------------------------------------------------------->
+            <!---------------------------------------------------------------->
             <div id="content1" class="container">
                 <div class="row">
-                    <div class="col-sm-4 col-lg-6">
-                            <h2>
-                                Une recette par passion
-                            </h2>
+                    <div id="secondAC" class="col-sm-4 col-lg-6">
+                            <h1>
+                                Une profession par passion
+                            </h1>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                            </p>
+                            <p>
+                                - Miranda Thomas
                             </p>
                     </div>
                     <div id="imgAC1" class="col-sm-1 col-lg-6">
@@ -48,6 +65,9 @@
                     </div>
                 </div>
             </div>
+            <!---------------------------------------------------------------->
+            <!---------------------------------------------------------------->
+            <!---------------------------------------------------------------->
         </div>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="/taste/js/jquery-3.1.1.js"></script>

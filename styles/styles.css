@@ -455,6 +455,25 @@ img{
     padding: 10%;   
 }
 
+#secondAC{
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 5%;
+    font-size: x-large;
+    text-align:right;
+}
+
+#thirdAC{
+    background-image: url("/taste/images/03.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+}
+
 #firstCTA{
     padding: 5%;
     background-color: rgba(144, 143, 143, 0.34);
@@ -462,4 +481,16 @@ img{
 
 #hr1{
     width: 60%;
+}
+
+#buttonCTA{
+    margin: 1.5em auto 0 auto;
+    width: auto;
+    font-size: 1.4em;
+    padding: 10px 50px;
+    border: 0;
+    border-radius: 3px;
+    color: #ecf0f1;
+    background: #52755d;
+    transition: .45s;
 }
