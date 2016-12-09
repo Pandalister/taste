@@ -434,13 +434,21 @@ img{
 /*------------------------------------------------------------------------*/
 /*---------------------------------ROW------------------------------------*/
 /*------------------------------------------------------------------------*/
-@media (min-width: 1200px){
-    #content1 {
-        width: 100% !important;
-    }
+.container {
+    width: 100% !important;
 }
 
 #imgAC1{
     padding-right: 0%;
     padding-left: 0%;
+}
+
+#firstAC{
+    background-image: url("/taste/images/02.jpg");
+    color: white;
+    padding: 10%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
