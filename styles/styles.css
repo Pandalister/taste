@@ -445,10 +445,21 @@ img{
 
 #firstAC{
     background-image: url("/taste/images/02.jpg");
-    color: white;
-    padding: 10%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    padding: 10%;   
+}
+
+#firstCTA{
+    padding: 5%;
+    background-color: rgba(144, 143, 143, 0.34);
+}
+
+#hr1{
+    width: 60%;
 }
