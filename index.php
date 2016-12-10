@@ -22,8 +22,13 @@
             <!---------------------------------------------------------------->
             <div class="container">
                 <div class="row">
+                    <div class="col-sm-12"><h1>À tous les moments la Journée</h1></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
                     <div class="col-sm-4"></div>
-                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4"><img id="ac2" src="/taste/images/Restaurant.png"/></div>
                     <div class="col-sm-4"></div>
                 </div>
             </div>

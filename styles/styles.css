@@ -494,3 +494,15 @@ img{
     background: #52755d;
     transition: .45s;
 }
+
+#ac2 {
+    padding-top: 10%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 25%;
+}
+
+h1{
+    text-align: center;
+    font-family: "Raleway";
+}
