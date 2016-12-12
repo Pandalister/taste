@@ -22,14 +22,9 @@
             <!---------------------------------------------------------------->
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12"><h1>À tous les moments la Journée</h1></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4"></div>
-                    <div class="col-sm-4"><img id="ac2" src="/taste/images/Restaurant.png"/></div>
-                    <div class="col-sm-4"></div>
+                    <div class="col-sm-12">
+                        <h1 id="actext2">Comme nous, vous aimez les bons petits plats ? Le Restaurant TASTE vous propose des petit déjeuner, des plat sur place ou à emporter et même des cookies délicieux.</h1>
+                    </div>
                 </div>
             </div>
             <!---------------------------------------------------------------->
@@ -39,7 +34,7 @@
                 <div id="firstAC" class="row">
                     <div id="firstCTA" class="col-sm-1 col-lg-12">
                         <h1 style="font-size : 3.5em">
-                                Un petit creux ?
+                                Une petite faim ?
                             </h1>
                         <hr id="hr1"/>
                             <p>
